@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check admin login</title>
+</head>
+<body>
+<script>
+
+  let account= prompt("Pleas input your account",'');
+  if (account=="Admin") {
+      let pass = prompt("please input password",'');
+       if (pass=="TheMaster") {
+           alert("welcom Admin");}
+           else if (pass==null) { alert("canceled");}
+           else {alert("wrong password");}
+
+                }
+  else if (account==null) {
+
+      alert("canceled wrong user");}
+  else {
+      alert("wrong user"); }
+</script>
+</body>
+</html>
